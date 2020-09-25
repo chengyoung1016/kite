@@ -38,7 +38,7 @@ kite 的坐标系 是笛卡尔坐标系, 别问为什么, 问就是巧合
 
 ## 捐赠 
 ```
-	个人项目, 着实不易, 如果你对这个项目感兴趣, 并有能力的话, 可以赞助一下下, 作者将会更有动力开发下去 :)
+个人项目, 着实不易, 如果你对这个项目感兴趣, 并有能力的话, 可以赞助一下下, 作者将会更有动力开发下去 :)
 ```
 <img src="https://raw.githubusercontent.com/HYbutterfly/Fantasy-scorpio-donation/master/wechatpay.png" align="left" height="400" width="300">
 <img src="https://raw.githubusercontent.com/HYbutterfly/Fantasy-scorpio-donation/master/alipay.png" height="400" width="300">
