@@ -1,1 +1,2 @@
-*.exe
+3rd/lua-5.4.0/src/lua.exe
+3rd/lua-5.4.0/src/luac.exe
