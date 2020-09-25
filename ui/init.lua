@@ -159,16 +159,16 @@ function M.tree(root)
 	local function draw_node(mt)
 		local parent_mt = mt.parent
 		local node = mt.node
-		local modified = false
+		mt.modified = false
 		if next(mt.modify) then
-			modified = true
+			mt.modified = true
 			for k,v in pairs(mt.modify) do
 				node[k] = v
 			end
 			mt.modify = {}
 		end
 
-		if modified or parent_mt.modified then
+		if mt.modified or parent_mt.modified then
 			mt.world_x = node.x + parent_mt.world_x
 			mt.world_y = node.y + parent_mt.world_y
 			mt.world_angle = node.angle + parent_mt.world_angle
